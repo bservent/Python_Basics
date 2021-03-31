@@ -48,6 +48,27 @@ str1[-2:]
 
 print(str1[-2:])
 
+######################################
+
+#TUPLES = collection of immutable python object inside parathesis
+#elements in tuple can be of the same data type or of a different data type
+
+tup1 = ("this", "is", "a", "tuple")
+
+print(tup1)
+
+#access first element
+
+tup1[0]
+
+#extract last element
+
+tup1[-1]
+
+######################################
+
+#LISTS = 
+
 
 
 
