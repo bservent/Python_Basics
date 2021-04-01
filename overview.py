@@ -67,11 +67,65 @@ tup1[-1]
 
 ######################################
 
-#LISTS = 
+#LISTS = ordered collection of an elements
+
+my_list = ['python', 'vscode', '11', '12']
 
 
+#extract first element
 
+my_list[0]
 
+print(my_list[0])
+
+#add element while removing another
+
+my_list[1] = 'hippy'
+my_list
+
+print(my_list)
+
+#finding the length of the list
+
+print(len(my_list))
+
+#reverse order
+
+my_list.reverse()
+
+print(my_list)
+
+###################################
+
+#SETS = unordered and unindexed items
+
+#every element in set is unique and does not contain duplicate values
+#can be used in mathmatical calcs such as union, intersection, and differences
+#if there are duplicate values they will be removed when variable is called
+# use <variable>.add('<added_element>') to add element to set
+# use <variable>.union('<variable_of_set_that_will_connect>')
+# .instersection to return intersection of two sets
+# .different returns one set (one in parathesis)
+
+####################################
+
+#DICTIONARIES = unordered collection of data that is stored in key : value pairs 
+#key is not mutable and value can be of any type
+
+Dictionary = {'britt':'human', 'trucker':'dog'}
+
+#how to change value
+Dictionary['britt'] = 'loser'
+
+print(Dictionary)
+
+#how to access one value
+print(Dictionary['britt'])
+
+#how to remove values
+del Dictionary['britt']
+
+print(Dictionary)
 
 
 
