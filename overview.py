@@ -127,6 +127,27 @@ del Dictionary['britt']
 
 print(Dictionary)
 
+#######################################
+
+#CONDITIONAL STATEMENTS
+
+A=5
+B=10
+
+if A>B:
+    print("Hello")
+elif B>A:
+    print("Hello world")
+else:
+    print("Hello programmers")
+
+###If statement: Firstly, “if” condition is checked and if it is true the statements under “if” statements will be executed. If it is false, then the control will be passed on to the next conditional statements.
+
+###Elif statement: If the previous condition is false, either it could be “if” condition or “elif” after “if”, then the control is passed on to the “elif” statements. If it is true then the statements after the “elif” condition will execute. There can be more than one “elif” statement.
+
+###Else statement: When “if” and “elif” conditions are false, then the control is passed on to the “else” statement and it will execute.
+
+######################################
 
 
 
