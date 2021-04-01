@@ -149,6 +149,20 @@ else:
 
 ######################################
 
+#LOOPS
 
+#while loop = we use this loop when we want a line of code to be executed as long as the boolean is satified
 
+iteration = 0
+while(iteration<=5):
+    print(iteration)
+    iteration = iteration + 1
 
+#for loop = unlike while loop we know the number of iterations and is use to execute a block of code a set amount of times dependent on the range
+
+for i in range(len(my_list)):
+    print(my_list[i])
+
+#nested loops = loop inside loop (can be a combination of while and for)
+
+###############################################
