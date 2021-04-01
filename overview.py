@@ -166,3 +166,20 @@ for i in range(len(my_list)):
 #nested loops = loop inside loop (can be a combination of while and for)
 
 ###############################################
+
+#EXCEPTION HANDLING = error that occurs during execution of program that halt program
+
+#common exceptions
+#NameError: This error occurs when a name is not found
+#ZeroDivisionError: number divided by zero ... no divsions occur
+#IndentationError: wrong indentation
+#IOError: when input-output operations fail
+
+#in python use try, catch, except, and finally to handle exceptions
+
+#try block = {run this code}
+#except block = {run this code if an exception occurs}
+#else block = {if no error occurs then else will run}
+#finally block = {this code will always execute}
+
+
